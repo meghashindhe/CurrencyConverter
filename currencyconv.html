@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Currency Converter</title>
+  <link href="currencyconv.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <span>Currency</span>
+      <span>Conv</span>
+    </div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>Currency Converter</h2>
+    <div class="wrapper">
+      <form>
+        <div class="amount">
+          <p>Amount</p>
+          <input type="number" value="" />
+        </div>
+        <div class="converter">
+          <div class="from">
+            <p>From</p>
+            <div class="select_input">
+              <select>
+                <option value="">Select</option>
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="EUR">EUR</option>
+              </select>
+            </div>
+          </div>
+          <div class="reverse">
+            <i class="fas fa-exchange-alt"></i>
+          </div>
+          <div class="to">
+            <p>To</p>
+            <div class="select_input">
+              <select>
+                <option value="">Select</option>
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="EUR">EUR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="result">Getting exchange rate.....
+        </div>
+      </form>
+      <button type="button">Get Exchange Rate
+      </button>
+    </div>
+  </div>
+  <footer>
+    Copyrights &copy; All rights reserved
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
